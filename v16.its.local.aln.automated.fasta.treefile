@@ -1,0 +1,391 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=289;
+	taxlabels
+	'b0002_KJ206975.1_Mycena_illuminans'[&!color=#008040]
+	'b0003_JF908439.1_Mycena_stylobates'[&!color=#008040]
+	'b0004_JF908472.1_Mycena_pura'[&!color=#008040]
+	'b0005_JF908487.1_Mycena_rosea'[&!color=#008040]
+	'b0006_MH857694.1_Mycena_citricolor'[&!color=#008040]
+	'b0008_AB512312.1_Mycena_chlorophos'[&!color=#008040]
+	'b0008_KJ206985.1_Mycena_chlorophos'[&!color=#008040]
+	'b0009_MW881031.1_Mycena_discobasis'[&!color=#008040]
+	'b0010_JF908433.1_Mycena_polygramma'[&!color=#008040]
+	'b0011_JF908462.1_Mycena_zephirus'[&!color=#008040]
+	'b0012_HQ604768.1_Mycena_haematopus'[&!color=#008040]
+	'b0013_HQ604772.1_Mycena_epipterygia'[&!color=#008040]
+	'b0014_OL739381.1_Mycena_galopus'[&!color=#008040]
+	'b0015_MT644905.1_Mycena_inclinata'[&!color=#008040]
+	'b0016_OM677703.1_Mycena_maculata'[&!color=#008040]
+	'b0017_MW540664.1_Mycena_tintinnabulum'[&!color=#008040]
+	'b0025_KJ206966.1_Mycena_noctilucens'[&!color=#008040]
+	'b0027_MH856227.1_Mycena_olivaceomarginata'[&!color=#008040]
+	'b0031_AB512311.1_Mycena_sanguinolenta'[&!color=#008040]
+	'b0035_MH414563.1_Filoboletus_pallescens'[&!color=#008040]
+	'b0036_MT300505.1_Panellus_yunnanensis'[&!color=#008040]
+	'b0037_KF746998.1_Filoboletus_manipularis'[&!color=#008040]
+	'b003_AY213587.1_Armillaria_mellea'[&!color=#008040]
+	'b0043_KJ206979.1_Panellus_luminescens'[&!color=#008040]
+	'b0044_MZ801774.1_Panellus_pusillus'[&!color=#008040]
+	'b0045_AB863032.1_Panellus_stipticus'[&!color=#008040]
+	'b004_AY213553.1_Armillaria_ostoyae'[&!color=#008040]
+	'b0053_JX481737.1_Mycena_deeptha'[&!color=#008040]
+	'b0054_KC507796.1_Mycena_kentingensis__nom._inval._'[&!color=#008040]
+	'b0055_KF537248.1_Mycena_cahaya'[&!color=#008040]
+	'b0056_NR_154170.1_Mycena_seminau'[&!color=#008040]
+	'b0057_KF537247.1_Mycena_sinar'[&!color=#008040]
+	'b0058_KF537251.1_Mycena_sinar_var._tangkaisinar'[&!color=#008040]
+	'b0061_KJ206988.1_Panellus_luxfilamentus'[&!color=#008040]
+	'b0062_KJ206984.1_Mycena_nocticaelum'[&!color=#008040]
+	'b0064_MW540882.1_Mycena_lazulina'[&!color=#008040]
+	'b0065_AB971701.1_Mycena_sp._HT01'[&!color=#008040]
+	'b0066_AB968242.1_Mycena_sp._YO199'[&!color=#008040]
+	'b0067_AB971702.1_Resinomycena_sp._HT11'[&!color=#008040]
+	'b0069_KX010912.1_Resinomycena_petarensis'[&!color=#008040]
+	'b0070_KX010907.1_Mycena_deformis'[&!color=#008040]
+	'b0071_KX010908.1_Mycena_globulispora'[&!color=#008040]
+	'b0072_MG926694.1_Mycena_fulgoris'[&!color=#008040]
+	'b0073_MG926695.1_Mycena_guzmanii'[&!color=#008040]
+	'b0074_MG926687.1_Mycena_lumina'[&!color=#008040]
+	'b0075_MG926688.1_Mycena_luxfoliicola'[&!color=#008040]
+	'b0076_MG926685.1_Mycena_nebula'[&!color=#008040]
+	'b0077_MG926690.1_Mycena_perlae'[&!color=#008040]
+	'b0078_MG324363.1_Mycena_sp.'[&!color=#008040]
+	'b0079_MG324367.1_Mycena_sp.'[&!color=#008040]
+	'b0080_MG324369.1_Mycena_sp.'[&!color=#008040]
+	'b0081_MT274526.1_Roridomyces_sp._ST-2020a'[&!color=#008040]
+	'b0082_MW226885.1_Roridomyces_sp.'[&!color=#008040]
+	'n0001_JF908400.1_Mycena_abramsii'
+	'n0002_JF908384.1_Mycena_acicula'
+	'n0003_ON113879.1_Mycena_aciculata'
+	'n0004_MN992571.1_Atheniella_adonis'
+	'n0005_MK309769.1_Mycena_adonis'
+	'n0006_KT900140.1_Mycena_adscendens'
+	'n0007_MH856226.1_Mycena_aetites'
+	'n0008_JF908382.1_Mycena_alba'
+	'n0009_MK234177.1_Mycena_albiceps'
+	'n0010_JF908490.1_Mycena_albidoaquosa'
+	'n0011_JF908377.1_Mycena_albidolilacea'
+	'n0012_JF908480.1_Mycena_albidorosea'
+	'n0013_MH857462.1_Mycena_alcalina'
+	'n0014_KT900145.1_Mycena_alexandri'
+	'n0015_JF908424.1_Mycena_algeriensis'
+	'n0016_JF908426.1_Mycena_alnetorum'
+	'n0017_MH136830.1_Mycena_alphitophora'
+	'n0018_DQ490644.1_Mycena_amabilissima'
+	'n0019_JF908394.1_Mycena_amicta'
+	'n0020_MT497544.1_Mycena_amygdalina'
+	'n0021_HM246678.1_Favolaschia_andina'
+	'n0022_JF908371.1_Mycena_angusta'
+	'n0023_MT644906.1_Mycena_arcangeliana'
+	'n0024_MN906082.1_Mycena_atkinsoniana'
+	'n0025_KM975407.1_Heimiomyces_atrofulvus'
+	'n0026_JX987670.1_Favolaschia_aurantiaca'
+	'n0027_DQ384585.1_Atheniella_aurantiidisca'
+	'n0028_JF908479.1_Mycena_aurantiomarginata'
+	'n0029_DQ490647.1_Mycena_auricoma'
+	'n0030_KY649461.1_Favolaschia_auriscalpium'
+	'n0031_KY352638.1_Xeromphalina_austroandina'
+	'n0032_MH578516.1_Favolaschia_austrocyatheae'
+	'n0033_MT363746.1_Panellus_bambusicola'
+	'n0034_JF908374.1_Mycena_belliae'
+	'n0035_MK309773.1_Mycena_bicystidiata'
+	'n0036_MT196996.1_Mycena_borealis'
+	'n0037_MK026741.1_Xeromphalina_brevipes'
+	'n0038_MH414551.1_Mycena_breviseta'
+	'n0039_MH016789.1_Mycena_brunneisetosa'
+	'n0040_MK169375.1_Xeromphalina_brunneola'
+	'n0041_MT636954.1_Mycena_bulliformis'
+	'n0042_KX447791.1_Favolaschia_calocera'
+	'n0043_HQ604741.1_Xeromphalina_campanella'
+	'n0044_MK169367.1_Xeromphalina_campanelloides'
+	'n0045_JF908489.1_Mycena_capillaripes'
+	'n0046_JF908443.1_Mycena_capillaris'
+	'n0047_GU320004.1_Xeromphalina_cauticinalis'
+	'n0048_MW879311.1_Mycena_cf._aetites'
+	'n0049_MK028460.1_Mycena_cf._alniphila'
+	'n0050_MK028462.1_Mycena_cf._arcangeliana'
+	'n0051_MF926553.1_Mycena_cf._cinerella'
+	'n0052_MW540734.1_Mycena_cf._cineroides_BD-2020a'
+	'n0053_MT712780.1_Mycena_cf._citrinomarginata'
+	'n0054_OK493144.1_Mycena_cf._clavicularis'
+	'n0055_MW540730.1_Mycena_cf._concolor_BD-2020a'
+	'n0056_MK028463.1_Mycena_cf._crocata'
+	'n0057_MK348517.1_Mycena_cf._filopes'
+	'n0058_MT712782.1_Atheniella_cf._flavoalba'
+	'n0059_MK028465.1_Mycena_cf._galericulata'
+	'n0060_EF530930.1_Mycena_cf._galericulata_UBC_F16255'
+	'n0061_HQ445614.1_Mycena_cf._galopus_32_N3F21'
+	'n0062_MW540732.1_Mycena_cf._mucor'
+	'n0063_KT336215.1_Mycena_cf._murina_AG-2015'
+	'n0064_KY706193.1_Mycena_cf._olida'
+	'n0065_MK028468.1_Mycena_cf._polygramma'
+	'n0066_MK028480.1_Mycena_cf._pruinatipes'
+	'n0067_MK028469.1_Mycena_cf._pseudocorticola'
+	'n0068_JN021065.2_Mycena_cf._purpureofusca_MUSH159-07'
+	'n0069_JQ676208.1_Mycena_cf._purpureofusca_TMSC109'
+	'n0070_EU834204.1_Mycena_cf._quiniaultensis_OSC_66997'
+	'n0071_EU669310.1_Mycena_cf._quiniaultensis_OSC_67121'
+	'n0072_MW540716.1_Mycena_cf._rapiolens_BD-2020a'
+	'n0073_MK028484.1_Mycena_cf._rosea'
+	'n0074_JX434650.1_Mycena_cf._sanguinolenta_A34'
+	'n0075_KT336211.1_Mycena_cf._sanguinolenta_AG-2015'
+	'n0076_DQ384588.1_Mycena_cf._vitilis_F15193'
+	'n0077_OK239705.1_Mycena_chlorinosma'
+	'n0078_JF908486.1_Mycena_cicognanii'
+	'n0079_KT900146.1_Mycena_cinerella'
+	'n0080_KF727415.1_Favolaschia_cinnabarina'
+	'n0081_JF908416.1_Mycena_citrinomarginata'
+	'n0082_MW540690.1_Mycena_clavata'
+	'n0083_JF908466.1_Mycena_clavicularis'
+	'n0084_MT764847.1_Mycena_confinationis'
+	'n0085_MH858323.1_Xeromphalina_cornui'
+	'n0086_MN809550.1_Mycena_corticalis'
+	'n0087_MN892568.1_Mycena_corticola'
+	'n0088_JF908366.1_Mycena_corynephora'
+	'n0089_MT921381.1_Mycena_cristinae'
+	'n0090_MT644938.1_Mycena_crocata'
+	'n0091_OM473685.1_Mycena_crocea'
+	'n0092_JF908475.1_Mycena_cupressina'
+	'n0093_JF908385.1_Mycena_cyanorhiza'
+	'n0094_MW191776.1_Favolaschia_cyatheae'
+	'n0095_MT216215.1_Atheniella_delectabilis'
+	'n0096_JF908417.1_Mycena_diosma'
+	'n0097_MH414556.1_Mycena_discogena'
+	'n0098_MZ351725.1_Mycena_dunicola'
+	'n0099_JF908448.1_Mycena_dura'
+	'n0100_OK485911.1_Sarcomyxa_edulis'
+	'n0101_AB819088.1_Sarcomyxa_edulis'
+	'n0102_MK049914.1_Xeromphalina_enigmatica'
+	'n0103_MG654737.1_Mycena_entolomoides'
+	'n0104_MW540689.1_Mycena_erubescens'
+	'n0105_MT216221.1_Mycena_exilis'
+	'n0106_JF908410.1_Mycena_filopes'
+	'n0107_MH910612.1_Mycena_flagellata'
+	'n0108_JF908437.1_Mycena_flavoalba'
+	'n0109_MW540661.1_Atheniella_flavoalba'
+	'n0110_JF908405.1_Mycena_floridula'
+	'n0111_MH857186.1_Mycena_flos-nivium'
+	'n0112_MW264210.1_Xeromphalina_fraxinophila'
+	'n0113_MN088384.1_Mycena_galericulata'
+	'n0114_MG926683.1_Mycena_glaesisetosa'
+	'n0115_JF908481.1_Mycena_graminicola'
+	'n0116_MK309782.1_Mycena_griseotincta'
+	'n0117_MK573899.1_Mycena_griseoviridis'
+	'n0118_MK309785.1_Mycena_heteracantha'
+	'n0119_JF908444.1_Mycena_hiemalis'
+	'n0120_MH856230.1_Mycena_hiemalis_f._terrestris'
+	'n0121_EU846300.1_Mycena_hudsoniana'
+	'n0122_MK309780.1_Mycena_hygrophoroides'
+	'n0123_MF993026.1_Mycena_indigotica'
+	'n0124_MK733300.1_Mycena_interrupta'
+	'n0125_GU320007.1_Xeromphalina_junipericola'
+	'n0126_MT764846.1_Mycena_juniperifoliae'
+	'n0127_JF908478.1_Mycena_juniperina'
+	'n0128_MG663296.1_Xeromphalina_kauffmanii'
+	'n0129_MF445220.1_Cruentomycena_kedrovayae'
+	'n0130_MH930175.1_Mycena_laevigata'
+	'n0131_MW540672.1_Mycena_lammiensis'
+	'n0132_MW222639.1_Roridomyces_lamprosporus'
+	'n0133_MH414558.1_Mycena_lasiopus'
+	'n0134_JF908485.1_Mycena_latifolia'
+	'n0135_JF908376.1_Mycena_leaiana'
+	'n0136_MT644911.1_Mycena_leptocephala'
+	'n0137_MK575214.1_Mycena_leptophylla'
+	'n0138_MZ754466.1_Mycena_lohwagii'
+	'n0139_EU486435.1_Pleurotopsis_longinqua'
+	'n0140_OM212913.1_Panellus_longinquus'
+	'n0141_MW540714.1_Mycena_longiseta'
+	'n0142_JX987667.1_Favolaschia_luteoaurantiaca'
+	'n0143_AB512313.1_Mycena_luteopallens'
+	'n0144_HM246681.1_Favolaschia_macropora'
+	'n0145_JF908413.1_Mycena_maurella'
+	'n0146_MW222636.1_Roridomyces_mauritianus'
+	'n0147_JF908407.1_Mycena_megaspora'
+	'n0148_JF908429.1_Mycena_meliigena'
+	'n0149_JF908412.1_Mycena_metata'
+	'n0150_DQ026258.1_Favolaschia_minima'
+	'n0151_ON086974.1_Mycena_mirata'
+	'n0152_MK309778.1_Mycena_miscanthi'
+	'n0153_EU669336.1_Mycena_monticola'
+	'n0154_KU861565.1_Mycena_mucor'
+	'n0155_KU861560.1_Mycena_mucoroides'
+	'n0156_OM368073.1_Mycena_niveipes'
+	'n0157_JF908411.1_Mycena_olida'
+	'n0158_MH856334.1_Mycena_olivascens'
+	'n0159_JF908409.1_Mycena_oregonensis'
+	'n0160_MW222647.1_Cruentomycena_orientalis'
+	'n0161_MK169370.1_Mycena_overholtsii'
+	'n0162_JF908491.1_Mycena_pachyderma'
+	'n0163_KU861557.1_Mycena_pasvikensis'
+	'n0164_MN992283.1_Tectella_patellaris'
+	'n0165_JN182201.1_Mycena_pearsoniana'
+	'n0166_JF908379.1_Mycena_pelianthina'
+	'n0167_KY989966.1_Mycena_perlae'
+	'n0168_DQ026255.1_Favolaschia_peziziformis'
+	'n0169_MW540717.1_Mycena_picta'
+	'n0170_JF908463.1_Mycena_pilosella'
+	'n0171_JN198391.1_Mycena_plumbea'
+	'n0172_JX297427.1_Mycena_plumipes'
+	'n0173_KM975433.1_Xeromphalina_podocarpi'
+	'n0174_JF908456.1_Mycena_polyadelpha'
+	'n0175_MT196392.1_Mycena_pradensis'
+	'n0176_JF908386.1_Mycena_pseudocorticola'
+	'n0177_ON113885.1_Mycena_pseudocyanorrhiza'
+	'n0178_MK169371.1_Mycena_pseudotenax'
+	'n0179_MW540701.1_Mycena_pterigena'
+	'n0180_MG926692.1_Mycena_punkissima'
+	'n0181_HQ604765.1_Mycena_purpureofusca'
+	'n0182_MT292325.1_Favolaschia_pustulosa'
+	'n0183_MN809552.1_Mycena_quiniaultensis'
+	'n0184_JF908477.1_Mycena_rebaudengoi'
+	'n0185_JF908391.1_Mycena_renati'
+	'n0186_JF908372.1_Mycena_rhamnicola'
+	'n0187_ON113878.1_Mycena_rhenana'
+	'n0188_MG663276.1_Resinomycena_rhododendri'
+	'n0189_OM931154.1_Panellus_ringens'
+	'n0190_OL741531.1_Mycena_robusta'
+	'n0191_JF908422.1_Mycena_romagnesiana'
+	'n0192_OM906876.1_Roridomyces_roridus'
+	'n0194_JF908471.1_Mycena_rosella'
+	'n0195_EF530939.1_Mycena_rubromarginata'
+	'n0196_MZ159467.1_Resinomycena_saccharifera'
+	'n0197_MN218786.1_Mycena_semivestipes'
+	'n0198_MW540693.1_Mycena_septentrionalis'
+	'n0199_LC389048.1_Sarcomyxa_serotina'
+	'n0200_GQ890701.1_Xeromphalina_setulipes'
+	'n0201_JF908469.1_Mycena_seynesii'
+	'n0202_KF359604.1_Mycena_silvae-nigrae'
+	'n0203_GU234138.1_Mycena_simia'
+	'n0204_MZ393495.1_Mycena_spinosissima'
+	'n0205_DQ026246.1_Favolaschia_sprucei'
+	'n0206_JQ694102.1_Mycena_stevensoniae'
+	'n0207_JF908440.1_Mycena_strobilicola'
+	'n0208_JF908393.1_Mycena_strobilinoidea'
+	'n0209_OL711666.1_Mycena_subcaerulea'
+	'n0210_JF908457.1_Mycena_subcana'
+	'n0211_MN007025.1_Pleurotopsis_subgrisea'
+	'n0212_MH216189.1_Mycena_substylobates'
+	'n0213_MN809553.1_Mycena_subvitrea'
+	'n0214_JF908388.1_Mycena_supina'
+	'n0215_EU669274.1_Mycena_tenax'
+	'n0216_MZ467320.1_Mycena_tenerrima'
+	'n0217_MT764848.1_Mycena_tenuicorticola'
+	'n0218_MF100953.1_Xeromphalina_tenuipes'
+	'n0219_MK478466.1_Mycena_tenuispinosa'
+	'n0220_JF908375.1_Mycena_terena'
+	'n0221_JF908483.1_Mycena_thymicola'
+	'n0222_MN809554.1_Mycena_tinctura'
+	'n0223_DQ026247.1_Favolaschia_tonkinensis'
+	'n0224_MW540723.1_Mycena_tristis'
+	'n0225_MW540704.1_Mycena_tubarioides'
+	'n0226_MK026743.1_Xeromphalina_utricularis'
+	'n0227_MT126031.1_Cruentomycena_uttarakhandina'
+	'n0228_JF908465.1_Mycena_valida'
+	'n0229_DQ026244.1_Favolaschia_varariotecta'
+	'n0230_OK239713.1_Mycena_venustula'
+	'n0231_MH856676.1_Panellus_violaceofulvus'
+	'n0232_JF908378.1_Mycena_viridimarginata'
+	'n0233_EU517515.1_Cruentomycena_viscidocruenta'
+	'n0234_JF908390.1_Mycena_vitilis'
+	'n0235_JF908435.1_Mycena_vulgaris'
+	'n0236_MK474930.1_Mycena_xantholeuca'
+	'n0238_MW581491.1_Mycena_yuezhuoi'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('b004_AY213553.1_Armillaria_ostoyae':0.009755,'b003_AY213587.1_Armillaria_mellea':0.049435,(((((((((((((((((((((((((('n0229_DQ026244.1_Favolaschia_varariotecta':0.056044,(('n0021_HM246678.1_Favolaschia_andina':0.065744,('n0042_KX447791.1_Favolaschia_calocera':0.024842,'n0030_KY649461.1_Favolaschia_auriscalpium':0.022699)[&label="95.2/100"]:0.017195)[&label="25.8/27"]:0.001683,(('n0142_JX987667.1_Favolaschia_luteoaurantiaca':0.00836,'n0026_JX987670.1_Favolaschia_aurantiaca':0.211677)[&label="75.9/68"]:0.014784,'n0080_KF727415.1_Favolaschia_cinnabarina':0.011331)[&label="84.8/24"]:0.005594)[&label="86/72"]:0.005193)[&label="91.3/80"]:0.012473,'n0144_HM246681.1_Favolaschia_macropora':0.062988)[&label="97.4/90"]:0.015763,('n0205_DQ026246.1_Favolaschia_sprucei':0.017389,((('n0223_DQ026247.1_Favolaschia_tonkinensis':0.001777,'n0182_MT292325.1_Favolaschia_pustulosa':0.004014)[&label="99.6/100"]:0.040584,'n0168_DQ026255.1_Favolaschia_peziziformis':0.017649)[&label="85.7/53"]:0.012384,('n0032_MH578516.1_Favolaschia_austrocyatheae':0.034513,'n0094_MW191776.1_Favolaschia_cyatheae':0.027272)[&label="36.4/53"]:0.004205)[&label="98.9/100"]:0.025067)[&label="71.5/98"]:0.006125)[&label="92.7/98"]:0.018218,('b0037_KF746998.1_Filoboletus_manipularis':0.0204,'b0035_MH414563.1_Filoboletus_pallescens':0.038744)[&label="92.2/97"]:0.021469)[&label="98.3/100"]:0.037036,'b0066_AB968242.1_Mycena_sp._YO199':0.047323)[&label="96.3/100"]:0.032945,(((((('b0031_AB512311.1_Mycena_sanguinolenta':0.015508,'n0074_JX434650.1_Mycena_cf._sanguinolenta_A34':0.031679)[&label="95.7/100"]:0.016146,'n0075_KT336211.1_Mycena_cf._sanguinolenta_AG-2015':0.003004)[&label="88.2/100"]:0.007578,'b0076_MG926685.1_Mycena_nebula':0.002298)[&label="77.9/100"]:0.004225,'n0234_JF908390.1_Mycena_vitilis':0.007996)[&label="98.3/100"]:0.019702,'n0024_MN906082.1_Mycena_atkinsoniana':0.019139)[&label="99.3/100"]:0.033831,('b0012_HQ604768.1_Mycena_haematopus':0.018586,'b0014_OL739381.1_Mycena_galopus':0.026908)[&label="85/99"]:0.007194)[&label="86.5/99"]:0.00854)[&label="79.5/98"]:0.005433,((('n0011_JF908377.1_Mycena_albidolilacea':0.001621,((('n0081_JF908416.1_Mycena_citrinomarginata':0.004815,'n0170_JF908463.1_Mycena_pilosella':0.004876)[&label="0/76"]:6.0E-6,'n0010_JF908490.1_Mycena_albidoaquosa':3.0E-6)[&label="0/55"]:3.0E-6,('n0228_JF908465.1_Mycena_valida':0.003281,'b0027_MH856227.1_Mycena_olivaceomarginata':0.001683)[&label="0/41"]:2.0E-6)[&label="0/39"]:2.0E-6)[&label="94.3/99"]:0.006383,'n0069_JQ676208.1_Mycena_cf._purpureofusca_TMSC109':0.003879)[&label="90.9/99"]:0.008564,'n0053_MT712780.1_Mycena_cf._citrinomarginata':0.009391)[&label="99.5/100"]:0.026291)[&label="79.8/97"]:0.004572,(((('n0181_HQ604765.1_Mycena_purpureofusca':2.0E-6,'n0232_JF908378.1_Mycena_viridimarginata':0.001688)[&label="91/100"]:0.005551,('n0185_JF908391.1_Mycena_renati':0.003033,'n0201_JF908469.1_Mycena_seynesii':0.006707)[&label="0/99"]:5.63E-4)[&label="0/66"]:2.0E-6,'n0041_MT636954.1_Mycena_bulliformis':0.015143)[&label="90.1/98"]:0.006475,'b0072_MG926694.1_Mycena_fulgoris':0.007342)[&label="82.1/99"]:0.005611)[&label="80.9/98"]:0.004309,'b0071_KX010908.1_Mycena_globulispora':0.03634)[&label="76/32"]:0.001753,(('n0195_EF530939.1_Mycena_rubromarginata':0.017794,'n0213_MN809553.1_Mycena_subvitrea':0.010612)[&label="84.7/95"]:0.003324,((((('n0171_JN198391.1_Mycena_plumbea':0.036571,'b0080_MG324369.1_Mycena_sp.':0.010639)[&label="70.6/100"]:0.002768,(('n0001_JF908400.1_Mycena_abramsii':7.91E-4,'n0063_KT336215.1_Mycena_cf._murina_AG-2015':0.014889)[&label="78.8/100"]:0.007685,'n0016_JF908426.1_Mycena_alnetorum':0.002542)[&label="76.4/100"]:0.002567)[&label="70.4/100"]:0.00182,'b0078_MG324363.1_Mycena_sp.':0.020323)[&label="96.1/100"]:0.013558,(('b0079_MG324367.1_Mycena_sp.':0.068893,'n0007_MH856226.1_Mycena_aetites':0.006815)[&label="92.6/99"]:0.009535,('n0224_MW540723.1_Mycena_tristis':0.008186,('n0048_MW879311.1_Mycena_cf._aetites':0.001845,'n0190_OL741531.1_Mycena_robusta':0.003903)[&label="66.2/100"]:0.001109)[&label="77.6/100"]:0.003713)[&label="85.6/100"]:0.00392)[&label="93.6/99"]:0.010524,'n0028_JF908479.1_Mycena_aurantiomarginata':0.007132)[&label="73.3/59"]:0.002489)[&label="90.8/37"]:0.004675)[&label="85.5/91"]:0.003919,('b0011_JF908462.1_Mycena_zephirus':3.0E-6,'n0156_OM368073.1_Mycena_niveipes':3.0E-6)[&label="96.7/100"]:0.010039)[&label="24.1/60"]:0.002199,'n0015_JF908424.1_Mycena_algeriensis':0.001822)[&label="99.7/100"]:0.039642,((('b0010_JF908433.1_Mycena_polygramma':0.005074,'n0067_MK028469.1_Mycena_cf._pseudocorticola':0.006979)[&label="73/98"]:0.005333,'n0065_MK028468.1_Mycena_cf._polygramma':0.004021)[&label="98.8/100"]:0.026263,'n0202_KF359604.1_Mycena_silvae-nigrae':0.063254)[&label="40.7/86"]:0.002579)[&label="63.5/84"]:0.005311,(((('n0207_JF908440.1_Mycena_strobilicola':3.0E-6,'n0012_JF908480.1_Mycena_albidorosea':3.0E-6)[&label="46.4/100"]:0.004764,'n0172_JX297427.1_Mycena_plumipes':0.002835)[&label="99.5/100"]:0.02132,(('n0066_MK028480.1_Mycena_cf._pruinatipes':0.001553,'n0222_MN809554.1_Mycena_tinctura':0.006805)[&label="77.3/99"]:0.001505,'n0136_MT644911.1_Mycena_leptocephala':2.0E-6)[&label="86.4/100"]:0.00618)[&label="99.9/100"]:0.036069,(('n0221_JF908483.1_Mycena_thymicola':0.015827,'b0074_MG926687.1_Mycena_lumina':0.054979)[&label="95.9/99"]:0.021335,'n0084_MT764847.1_Mycena_confinationis':0.018236)[&label="50.8/93"]:0.006221)[&label="1.4/68"]:0.004365)[&label="95.8/94"]:0.016749,(((('n0076_DQ384588.1_Mycena_cf._vitilis_F15193':2.0E-6,'n0060_EF530930.1_Mycena_cf._galericulata_UBC_F16255':0.001424)[&label="49.7/90"]:0.004489,'b0016_OM677703.1_Mycena_maculata':0.002046)[&label="100/100"]:0.064524,(('n0147_JF908407.1_Mycena_megaspora':0.008493,(('n0191_JF908422.1_Mycena_romagnesiana':0.020324,'n0086_MN809550.1_Mycena_corticalis':0.019709)[&label="80.7/92"]:0.00411,'n0059_MK028465.1_Mycena_cf._galericulata':0.008473)[&label="67.8/92"]:0.001614)[&label="76.7/100"]:0.002562,'n0113_MN088384.1_Mycena_galericulata':0.006032)[&label="99.9/100"]:0.050284)[&label="9.5/86"]:0.008376,('n0083_JF908466.1_Mycena_clavicularis':0.005343,'n0054_OK493144.1_Mycena_cf._clavicularis':3.0E-6)[&label="98.9/100"]:0.02487)[&label="86.9/88"]:0.014535)[&label="79.3/52"]:0.006489,(((((((((('n0215_EU669274.1_Mycena_tenax':0.00938,'n0235_JF908435.1_Mycena_vulgaris':2.0E-6)[&label="60.4/95"]:0.011323,'n0070_EU834204.1_Mycena_cf._quiniaultensis_OSC_66997':0.050644)[&label="89.5/94"]:0.009049,(('n0143_AB512313.1_Mycena_luteopallens':0.014817,('n0137_MK575214.1_Mycena_leptophylla':0.008274,'n0091_OM473685.1_Mycena_crocea':2.0E-6)[&label="95/100"]:0.010806)[&label="92.6/99"]:0.015855,'n0194_JF908471.1_Mycena_rosella':0.030462)[&label="84.8/80"]:0.008419)[&label="40/82"]:0.001934,('n0034_JF908374.1_Mycena_belliae':0.026603,('n0134_JF908485.1_Mycena_latifolia':0.049639,'n0104_MW540689.1_Mycena_erubescens':0.025245)[&label="47.4/92"]:0.013685)[&label="98.2/99"]:0.027119)[&label="90.3/87"]:0.013173,'n0135_JF908376.1_Mycena_leaiana':0.112717)[&label="0/33"]:0.002489,((('n0079_KT900146.1_Mycena_cinerella':0.010143,('n0051_MF926553.1_Mycena_cf._cinerella':0.001583,'n0052_MW540734.1_Mycena_cf._cineroides_BD-2020a':0.00503)[&label="74.7/100"]:0.001619)[&label="90.8/100"]:0.017899,'n0103_MG654737.1_Mycena_entolomoides':0.048897)[&label="85.4/76"]:0.013181,'n0163_KU861557.1_Mycena_pasvikensis':0.010487)[&label="80.7/71"]:0.00421)[&label="99.2/96"]:0.02035,(((((('n0203_GU234138.1_Mycena_simia':2.0E-6,'b0013_HQ604772.1_Mycena_epipterygia':0.01148)[&label="91.2/100"]:0.017595,('n0210_JF908457.1_Mycena_subcana':0.04607,'n0117_MK573899.1_Mycena_griseoviridis':0.030436)[&label="86.8/99"]:0.02139)[&label="100/100"]:0.076101,('n0013_MH857462.1_Mycena_alcalina':0.001878,'b0015_MT644905.1_Mycena_inclinata':0.001597)[&label="99.4/100"]:0.024438)[&label="0/88"]:9.24E-4,'n0198_MW540693.1_Mycena_septentrionalis':0.013433)[&label="89.6/96"]:0.005549,('n0111_MH857186.1_Mycena_flos-nivium':0.010685,('n0197_MN218786.1_Mycena_semivestipes':0.007103,'b0017_MW540664.1_Mycena_tintinnabulum':0.008994)[&label="99.3/100"]:0.025669)[&label="83/80"]:0.0057)[&label="79.2/78"]:0.004666,'n0036_MT196996.1_Mycena_borealis':0.0365)[&label="78.3/92"]:0.005239)[&label="83.3/92"]:0.006478,'n0208_JF908393.1_Mycena_strobilinoidea':0.038348)[&label="71.3/84"]:0.004163,(((((((('n0022_JF908371.1_Mycena_angusta':2.0E-6,'n0138_MZ754466.1_Mycena_lohwagii':2.0E-6)[&label="90.9/100"]:0.002931,'n0184_JF908477.1_Mycena_rebaudengoi':3.0E-6)[&label="92.5/100"]:0.011614,'n0072_MW540716.1_Mycena_cf._rapiolens_BD-2020a':0.032469)[&label="85.8/100"]:0.010993,'n0220_JF908375.1_Mycena_terena':0.049997)[&label="94.5/100"]:0.021765,'n0230_OK239713.1_Mycena_venustula':0.048542)[&label="97.9/100"]:0.029191,('n0179_MW540701.1_Mycena_pterigena':0.035911,('n0062_MW540732.1_Mycena_cf._mucor':0.023743,'n0151_ON086974.1_Mycena_mirata':0.053412)[&label="18/83"]:0.006142)[&label="94.2/100"]:0.018695)[&label="86/100"]:0.016459,('n0174_JF908456.1_Mycena_polyadelpha':0.171764,'n0126_MT764846.1_Mycena_juniperifoliae':0.057554)[&label="96.6/100"]:0.050894)[&label="80.8/99"]:0.040573,'n0055_MW540730.1_Mycena_cf._concolor_BD-2020a':0.09391)[&label="97.3/100"]:0.043692)[&label="71.2/84"]:0.008315,('n0056_MK028463.1_Mycena_cf._crocata':0.015806,'n0090_MT644938.1_Mycena_crocata':0.014746)[&label="100/100"]:0.079415)[&label="86.3/84"]:0.010435)[&label="84.1/49"]:0.006243,((('n0153_EU669336.1_Mycena_monticola':0.006725,((('n0121_EU846300.1_Mycena_hudsoniana':0.028302,((('n0176_JF908386.1_Mycena_pseudocorticola':0.006283,'n0214_JF908388.1_Mycena_supina':0.003201)[&label="76.2/91"]:0.001919,'n0087_MN892568.1_Mycena_corticola':3.0E-6)[&label="74.8/91"]:0.002528,(('n0148_JF908429.1_Mycena_meliigena':2.0E-6,'n0127_JF908478.1_Mycena_juniperina':3.0E-6)[&label="0/92"]:3.0E-6,'n0092_JF908475.1_Mycena_cupressina':2.0E-6)[&label="93/100"]:0.010302)[&label="99.2/100"]:0.027942)[&label="61.1/82"]:0.003813,('n0149_JF908412.1_Mycena_metata':0.00526,(('n0115_JF908481.1_Mycena_graminicola':0.003584,'n0023_MT644906.1_Mycena_arcangeliana':3.0E-6)[&label="52.8/100"]:0.001785,'n0050_MK028462.1_Mycena_cf._arcangeliana':0.004111)[&label="24.7/93"]:0.005459)[&label="92.7/100"]:0.009752)[&label="82.3/75"]:0.003647,'n0014_KT900145.1_Mycena_alexandri':0.029965)[&label="20.7/53"]:0.004677)[&label="0/85"]:4.68E-4,'n0020_MT497544.1_Mycena_amygdalina':0.092085)[&label="89.6/94"]:0.011161,((((('n0186_JF908372.1_Mycena_rhamnicola':3.0E-6,'n0078_JF908486.1_Mycena_cicognanii':3.0E-6)[&label="0/71"]:2.0E-6,'n0158_MH856334.1_Mycena_olivascens':0.109472)[&label="96.9/100"]:0.013887,(('n0106_JF908410.1_Mycena_filopes':0.024827,'n0057_MK348517.1_Mycena_cf._filopes':0.005621)[&label="89.4/88"]:0.005965,('n0236_MK474930.1_Mycena_xantholeuca':0.016276,'n0217_MT764848.1_Mycena_tenuicorticola':0.01598)[&label="83.9/70"]:0.004464)[&label="81.5/68"]:0.004375)[&label="97.1/99"]:0.026907,'n0049_MK028460.1_Mycena_cf._alniphila':0.085169)[&label="0/34"]:2.0E-6,('n0046_JF908443.1_Mycena_capillaris':0.036328,('n0225_MW540704.1_Mycena_tubarioides':0.079346,'n0105_MT216221.1_Mycena_exilis':0.028313)[&label="93.3/99"]:0.025158)[&label="99/99"]:0.036042)[&label="84.4/91"]:0.006818)[&label="96/93"]:0.018107)[&label="90.4/90"]:0.019825,('n0206_JQ694102.1_Mycena_stevensoniae':0.094226,('n0130_MH930175.1_Mycena_laevigata':0.045872,'n0161_MK169370.1_Mycena_overholtsii':0.010149)[&label="98.8/100"]:0.051646)[&label="50.2/82"]:0.020035)[&label="97.1/93"]:0.027966,((((((('n0150_DQ026258.1_Favolaschia_minima':0.07199,('b0036_MT300505.1_Panellus_yunnanensis':0.02767,'n0033_MT363746.1_Panellus_bambusicola':0.035399)[&label="98.6/100"]:0.050801)[&label="88.9/85"]:0.024483,(('b0045_AB863032.1_Panellus_stipticus':0.034375,('b0061_KJ206988.1_Panellus_luxfilamentus':0.00201,'b0044_MZ801774.1_Panellus_pusillus':2.0E-6)[&label="100/100"]:0.057652)[&label="97.4/100"]:0.030022,'b0043_KJ206979.1_Panellus_luminescens':0.119237)[&label="79.5/85"]:0.009381)[&label="86/100"]:0.013187,(('n0233_EU517515.1_Cruentomycena_viscidocruenta':0.014381,('n0129_MF445220.1_Cruentomycena_kedrovayae':0.004043,'n0160_MW222647.1_Cruentomycena_orientalis':0.002755)[&label="82.7/100"]:0.00793)[&label="80/100"]:0.010742,'n0227_MT126031.1_Cruentomycena_uttarakhandina':0.028928)[&label="98.5/100"]:0.036319)[&label="75.1/99"]:0.014421,'b0073_MG926695.1_Mycena_guzmanii':0.071038)[&label="69.9/100"]:0.00585,('b0067_AB971702.1_Resinomycena_sp._HT11':0.003306,'n0188_MG663276.1_Resinomycena_rhododendri':0.010684)[&label="99.8/100"]:0.033011)[&label="66/95"]:0.009263,'b0065_AB971701.1_Mycena_sp._HT01':0.050675)[&label="12/89"]:0.002664,((('b0069_KX010912.1_Resinomycena_petarensis':0.045469,'n0192_OM906876.1_Roridomyces_roridus':0.028148)[&label="100/100"]:0.155424,(('b0081_MT274526.1_Roridomyces_sp._ST-2020a':0.01897,'n0146_MW222636.1_Roridomyces_mauritianus':0.001576)[&label="85.7/100"]:0.007501,('n0132_MW222639.1_Roridomyces_lamprosporus':0.037356,'b0082_MW226885.1_Roridomyces_sp.':0.011934)[&label="56/92"]:0.009617)[&label="44.4/92"]:0.027509)[&label="100/100"]:0.206545,'n0196_MZ159467.1_Resinomycena_saccharifera':0.200146)[&label="91.1/95"]:0.062416)[&label="96.9/99"]:0.042325)[&label="97.4/100"]:0.038764,(((((('n0166_JF908379.1_Mycena_pelianthina':0.005693,'n0131_MW540672.1_Mycena_lammiensis':0.00517)[&label="99.3/100"]:0.016499,('n0096_JF908417.1_Mycena_diosma':0.010873,'b0055_KF537248.1_Mycena_cahaya':0.057725)[&label="0/82"]:8.92E-4)[&label="74.6/60"]:0.002283,'n0165_JN182201.1_Mycena_pearsoniana':0.024807)[&label="0/57"]:2.0E-6,'b0056_NR_154170.1_Mycena_seminau':0.020004)[&label="78.8/89"]:0.004366,(((('b0004_JF908472.1_Mycena_pura':0.005377,'n0068_JN021065.2_Mycena_cf._purpureofusca_MUSH159-07':0.004326)[&label="85.2/100"]:0.008133,'b0005_JF908487.1_Mycena_rosea':0.013915)[&label="97.9/100"]:0.015267,(('b0057_KF537247.1_Mycena_sinar':2.0E-6,'b0058_KF537251.1_Mycena_sinar_var._tangkaisinar':0.005033)[&label="99.5/100"]:0.020137,'n0073_MK028484.1_Mycena_cf._rosea':0.017533)[&label="61/87"]:0.002043)[&label="81.5/85"]:0.005376,'n0238_MW581491.1_Mycena_yuezhuoi':0.046769)[&label="0/66"]:3.0E-6)[&label="100/100"]:0.083534,('b0025_KJ206966.1_Mycena_noctilucens':0.12229,('n0009_MK234177.1_Mycena_albiceps':0.074267,'n0169_MW540717.1_Mycena_picta':0.100376)[&label="87.5/91"]:0.024328)[&label="80.2/88"]:0.017971)[&label="90.4/88"]:0.029019)[&label="81.3/88"]:0.014624,('b0075_MG926688.1_Mycena_luxfoliicola':0.236069,'b0006_MH857694.1_Mycena_citricolor':0.200456)[&label="95/98"]:0.063994)[&label="17.1/59"]:0.006368,(((((('n0088_JF908366.1_Mycena_corynephora':0.001702,'n0017_MH136830.1_Mycena_alphitophora':2.0E-6)[&label="91.3/100"]:0.005236,'n0122_MK309780.1_Mycena_hygrophoroides':0.007113)[&label="92.9/100"]:0.006916,('n0035_MK309773.1_Mycena_bicystidiata':0.006831,'n0116_MK309782.1_Mycena_griseotincta':3.0E-6)[&label="49.4/95"]:0.003463)[&label="71.4/97"]:0.001759,'n0152_MK309778.1_Mycena_miscanthi':0.012248)[&label="92.5/97"]:0.019164,('n0167_KY989966.1_Mycena_perlae':0.007224,'b0077_MG926690.1_Mycena_perlae':3.0E-6)[&label="89.2/100"]:0.015783)[&label="100/100"]:0.124421,('n0133_MH414558.1_Mycena_lasiopus':0.194337,('n0118_MK309785.1_Mycena_heteracantha':0.012959,'n0204_MZ393495.1_Mycena_spinosissima':0.025144)[&label="99.1/100"]:0.070945)[&label="84.4/98"]:0.033312)[&label="99.9/99"]:0.09806)[&label="67.7/65"]:0.006368,(((((((('b0008_AB512312.1_Mycena_chlorophos':0.019685,'b0008_KJ206985.1_Mycena_chlorophos':0.020236)[&label="92.2/98"]:0.029248,('b0009_MW881031.1_Mycena_discobasis':0.002015,'n0077_OK239705.1_Mycena_chlorinosma':3.0E-6)[&label="98.8/100"]:0.042522)[&label="95.1/97"]:0.048975,('b0053_JX481737.1_Mycena_deeptha':0.061522,'n0124_MK733300.1_Mycena_interrupta':0.08962)[&label="84.7/100"]:0.027136)[&label="64.3/98"]:0.021176,'n0187_ON113878.1_Mycena_rhenana':0.112395)[&label="99.8/100"]:0.079521,'n0097_MH414556.1_Mycena_discogena':0.076679)[&label="85.6/99"]:0.024925,('b0002_KJ206975.1_Mycena_illuminans':0.085821,('n0123_MF993026.1_Mycena_indigotica':0.125596,'b0064_MW540882.1_Mycena_lazulina':0.159235)[&label="76.7/100"]:0.031674)[&label="82.1/100"]:0.015014)[&label="90.4/100"]:0.024788,(((('n0093_JF908385.1_Mycena_cyanorhiza':0.036404,'n0177_ON113885.1_Mycena_pseudocyanorrhiza':0.083157)[&label="95.3/100"]:0.051231,'n0162_JF908491.1_Mycena_pachyderma':0.106707)[&label="10/81"]:0.028438,'n0107_MH910612.1_Mycena_flagellata':0.220602)[&label="77.3/97"]:0.014781,(('n0019_JF908394.1_Mycena_amicta':3.0E-6,'n0175_MT196392.1_Mycena_pradensis':0.010705)[&label="76.5/100"]:0.026751,'n0209_OL711666.1_Mycena_subcaerulea':0.069435)[&label="77.9/15"]:0.030501)[&label="93/16"]:0.03384)[&label="85.1/16"]:0.014631,((((('b0003_JF908439.1_Mycena_stylobates':0.013268,'b0070_KX010907.1_Mycena_deformis':0.044781)[&label="99.4/100"]:0.051893,((((('b0054_KC507796.1_Mycena_kentingensis__nom._inval._':0.079904,'n0219_MK478466.1_Mycena_tenuispinosa':0.077748)[&label="94.9/100"]:0.031906,'n0212_MH216189.1_Mycena_substylobates':0.066652)[&label="40.3/86"]:0.011539,'n0154_KU861565.1_Mycena_mucor':0.111427)[&label="84.9/90"]:0.018865,'n0155_KU861560.1_Mycena_mucoroides':0.139807)[&label="65.6/90"]:0.008947,('n0006_KT900140.1_Mycena_adscendens':0.070442,'n0216_MZ467320.1_Mycena_tenerrima':0.079935)[&label="100/100"]:0.075447)[&label="74.4/81"]:0.007952)[&label="79.2/70"]:0.008788,('n0141_MW540714.1_Mycena_longiseta':0.003624,'n0003_ON113879.1_Mycena_aciculata':0.002582)[&label="100/100"]:0.13858)[&label="87.5/77"]:0.011646,(('b0062_KJ206984.1_Mycena_nocticaelum':0.073229,'n0114_MG926683.1_Mycena_glaesisetosa':0.194812)[&label="78.8/95"]:0.039164,(('n0180_MG926692.1_Mycena_punkissima':0.007579,'n0038_MH414551.1_Mycena_breviseta':0.034319)[&label="83.5/100"]:0.008708,'n0039_MH016789.1_Mycena_brunneisetosa':0.009071)[&label="100/100"]:0.07751)[&label="66.7/91"]:0.012357)[&label="95.8/82"]:0.054305,'n0089_MT921381.1_Mycena_cristinae':0.352485)[&label="66.6/11"]:0.009692)[&label="97.3/80"]:0.04154)[&label="98.5/98"]:0.092589,'n0002_JF908384.1_Mycena_acicula':0.404115)[&label="88.8/98"]:0.050501,(((((('n0200_GQ890701.1_Xeromphalina_setulipes':0.001505,(('n0047_GU320004.1_Xeromphalina_cauticinalis':0.008584,'n0044_MK169367.1_Xeromphalina_campanelloides':0.004788)[&label="70.5/79"]:9.61E-4,'n0085_MH858323.1_Xeromphalina_cornui':0.008425)[&label="99.1/100"]:0.016522)[&label="45.5/69"]:0.002602,'n0112_MW264210.1_Xeromphalina_fraxinophila':5.8E-4)[&label="100/100"]:0.078246,(('n0125_GU320007.1_Xeromphalina_junipericola':0.032692,'n0173_KM975433.1_Xeromphalina_podocarpi':0.049633)[&label="97.3/100"]:0.021209,('n0037_MK026741.1_Xeromphalina_brevipes':0.00373,'n0226_MK026743.1_Xeromphalina_utricularis':0.003028)[&label="93.8/100"]:0.011599)[&label="97.2/100"]:0.032791)[&label="42.4/84"]:0.012448,((('n0043_HQ604741.1_Xeromphalina_campanella':0.004653,('n0128_MG663296.1_Xeromphalina_kauffmanii':0.004302,'n0040_MK169375.1_Xeromphalina_brunneola':0.024882)[&label="84.1/80"]:0.004666)[&label="79.4/80"]:0.003709,'n0102_MK049914.1_Xeromphalina_enigmatica':0.005664)[&label="96.3/100"]:0.017184,'n0031_KY352638.1_Xeromphalina_austroandina':0.043661)[&label="77.8/100"]:0.008491)[&label="98.3/99"]:0.052733,((('n0101_AB819088.1_Sarcomyxa_edulis':3.0E-6,'n0100_OK485911.1_Sarcomyxa_edulis':0.002917)[&label="68.8/99"]:0.01537,'n0199_LC389048.1_Sarcomyxa_serotina':0.030298)[&label="100/100"]:0.137243,'n0164_MN992283.1_Tectella_patellaris':0.131703)[&label="99.4/100"]:0.094001)[&label="83.5/98"]:0.029386,('n0025_KM975407.1_Heimiomyces_atrofulvus':0.121267,'n0218_MF100953.1_Xeromphalina_tenuipes':0.038735)[&label="100/100"]:0.139382)[&label="4.8/87"]:0.021466)[&label="87.7/95"]:0.047101,(((((('n0027_DQ384585.1_Atheniella_aurantiidisca':0.053601,((('n0018_DQ490644.1_Mycena_amabilissima':0.011896,('n0108_JF908437.1_Mycena_flavoalba':0.013318,'n0004_MN992571.1_Atheniella_adonis':0.001642)[&label="72.9/32"]:0.001616)[&label="87.9/30"]:0.00668,(('n0110_JF908405.1_Mycena_floridula':3.0E-6,'n0109_MW540661.1_Atheniella_flavoalba':3.0E-6)[&label="89.4/100"]:0.004977,'n0005_MK309769.1_Mycena_adonis':0.01309)[&label="91.9/99"]:0.00616)[&label="45.8/30"]:0.003515,'n0058_MT712782.1_Atheniella_cf._flavoalba':0.007202)[&label="91.1/93"]:0.017914)[&label="83.7/96"]:0.030235,'n0095_MT216215.1_Atheniella_delectabilis':0.147139)[&label="99.5/100"]:0.067645,(('n0071_EU669310.1_Mycena_cf._quiniaultensis_OSC_67121':0.015266,('n0178_MK169371.1_Mycena_pseudotenax':0.017847,'n0183_MN809552.1_Mycena_quiniaultensis':0.005993)[&label="76.8/96"]:0.004039)[&label="30.7/93"]:0.003573,'n0099_JF908448.1_Mycena_dura':0.005008)[&label="98.8/100"]:0.058387)[&label="89.1/97"]:0.030558,((('n0139_EU486435.1_Pleurotopsis_longinqua':0.001577,('n0211_MN007025.1_Pleurotopsis_subgrisea':3.0E-6,'n0140_OM212913.1_Panellus_longinquus':3.0E-6)[&label="0/95"]:2.0E-6)[&label="83.6/95"]:0.016468,'n0231_MH856676.1_Panellus_violaceofulvus':0.023748)[&label="76.8/96"]:0.019918,'n0189_OM931154.1_Panellus_ringens':0.038959)[&label="100/100"]:0.106915)[&label="91.1/91"]:0.034812,('n0029_DQ490647.1_Mycena_auricoma':0.253215,'n0098_MZ351725.1_Mycena_dunicola':0.310104)[&label="96.2/89"]:0.091033)[&label="61.6/87"]:0.018242,(((('n0061_HQ445614.1_Mycena_cf._galopus_32_N3F21':0.002183,'n0120_MH856230.1_Mycena_hiemalis_f._terrestris':0.077435)[&label="53.5/98"]:0.002148,'n0145_JF908413.1_Mycena_maurella':0.01113)[&label="93.1/100"]:0.014525,'n0159_JF908409.1_Mycena_oregonensis':0.064254)[&label="84.6/99"]:0.023127,(((('n0008_JF908382.1_Mycena_alba':3.0E-6,'n0045_JF908489.1_Mycena_capillaripes':2.0E-6)[&label="80.4/100"]:0.003581,'n0119_JF908444.1_Mycena_hiemalis':0.001297)[&label="65.5/98"]:0.007986,('n0157_JF908411.1_Mycena_olida':2.0E-6,'n0064_KY706193.1_Mycena_cf._olida':0.004753)[&label="94.8/100"]:0.014248)[&label="100/100"]:0.070819,'n0082_MW540690.1_Mycena_clavata':0.055682)[&label="24.9/76"]:0.013118)[&label="100/100"]:0.133818)[&label="99.4/100"]:0.108283)[&label="100/100"]:0.184778);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=99;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
