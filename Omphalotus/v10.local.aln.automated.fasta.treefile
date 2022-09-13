@@ -1,0 +1,141 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=39;
+	taxlabels
+	'KJ395102.1_Omphalotus_japonicus'
+	'b0002_KP013056.1_Neonothopanus_nambi'[&!color=#408000]
+	'b0004_MN737454.1_Omphalotus_illudens'[&!color=#408000]
+	'b0006_AY265837.1_Omphalotus_nidiformis'[&!color=#408000]
+	'b0007_MZ088070.1_Omphalotus_olearius'[&!color=#408000]
+	'b0008_MF403068.1_Omphalotus_olivascens'[&!color=#408000]
+	'b0011_JF344713.1_Neonothopanus_gardneri'[&!color=#408000]
+	b0013_Marasmiellus_lucidus[&!color=#408000]
+	b0014_Marasmiellus_venosus[&!color=#408000]
+	'cladeA_KY026676.1_Marasmiellus_vaillantii'
+	'cladeA_sp0353_KY026649.1_Gymnopus_luxurians'
+	'cladeB_MK434210.1_Pusillomyces_manuripioides'
+	'cladeB_sp0505_KF251069.1_Gymnopus_asetosus'
+	'cladeD_NR_152899.1_Pseudomarasmius_glabrocystidiatus'
+	'cladeD_sp0115_MT303151.1_Marasmius_pallidocephalus'
+	'cladeE_KY026689.1_Rhodocollybia_maculata'
+	'cladeE_sp0343_KY026714.1_Rhodocollybia_butyracea'
+	'cladeF_AF031192.1_Lentinula_lateritia'
+	'cladeF_sp0351_KY026657.1_Lentinula_boryana'
+	'cladeG_KY026727.1_Gymnopus_fusipes_isolate'
+	'cladeG_sp0330_AY263423.1_Gymnopus_bicolor'
+	'cladeH_KY026695.1_Gymnopus_pinophilus'
+	'cladeH_sp0342_KY026652.1_Gymnopus_foliiphilus'
+	'cladeI_KY026638.1_Paramycetinis_austrobrevipes'
+	'cladeI_sp0354_KY026644.1_Paramycetinis_caulocystidiatus'
+	'cladeJ_KY696751.1_Mycetinis_copelandii'
+	'cladeJ_sp0360_KY696769.1_Mycetinis_opacus'
+	'sp0001_DQ490641.1_Marasmius_oreades'
+	'sp0005_DQ182506.1_Marasmius_rotula'
+	'sp0021_AY317136.1_Moniliophthora_perniciosa'
+	'sp0086_AY445121.1_Campanella_subdendrophora'
+	'sp0125_AY916692.1_Crinipellis_zonata'
+	'sp0301_MW298685.1_Neonothopanus_hygrophanus'
+	'sp0304_KC333363.1_Omphalotus_flagelliformis'
+	'sp0305_AY313283.1_Omphalotus_subilludens'
+	'sp0309_AY313274.1_Omphalotus_mexicanus'
+	'sp0311_MK965882.1_Omphalotus_guepiniformis'
+	'sp0364_DQ404387.1_Anthracophyllum_archeri'
+	'sp0508_GU318378.1_Connopus_acervatus'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('b0006_AY265837.1_Omphalotus_nidiformis':0.013421,(((((((((('cladeG_sp0330_AY263423.1_Gymnopus_bicolor':0.035683,((('sp0508_GU318378.1_Connopus_acervatus':0.029394,('cladeB_sp0505_KF251069.1_Gymnopus_asetosus':0.003137,'cladeB_MK434210.1_Pusillomyces_manuripioides':0.015227)[&label="100/100"]:0.07968)[&label="93.2/97"]:0.020693,'cladeA_KY026676.1_Marasmiellus_vaillantii':0.026996)[&label="59.3/35"]:0.002441,('cladeA_sp0353_KY026649.1_Gymnopus_luxurians':0.024853,'cladeE_KY026689.1_Rhodocollybia_maculata':0.028892)[&label="86.8/52"]:0.006239)[&label="0/19"]:2.0E-6)[&label="84.8/29"]:0.004661,('cladeE_sp0343_KY026714.1_Rhodocollybia_butyracea':0.013078,('cladeD_sp0115_MT303151.1_Marasmius_pallidocephalus':0.00194,'cladeD_NR_152899.1_Pseudomarasmius_glabrocystidiatus':2.0E-6)[&label="98.7/100"]:0.016849)[&label="90.3/74"]:0.004482)[&label="82.7/32"]:0.003145,((('cladeH_sp0342_KY026652.1_Gymnopus_foliiphilus':0.009285,'cladeH_KY026695.1_Gymnopus_pinophilus':0.01421)[&label="98.5/100"]:0.011394,('cladeF_sp0351_KY026657.1_Lentinula_boryana':0.028763,'cladeF_AF031192.1_Lentinula_lateritia':0.024751)[&label="97.8/98"]:0.015169)[&label="0/42"]:2.0E-6,'cladeG_KY026727.1_Gymnopus_fusipes_isolate':0.034955)[&label="91/55"]:0.004099)[&label="90/47"]:0.004595,(('cladeI_sp0354_KY026644.1_Paramycetinis_caulocystidiatus':0.003006,'cladeI_KY026638.1_Paramycetinis_austrobrevipes':7.61E-4)[&label="100/100"]:0.013009,('cladeJ_sp0360_KY696769.1_Mycetinis_opacus':0.004118,'cladeJ_KY696751.1_Mycetinis_copelandii':0.00908)[&label="89.1/91"]:0.005095)[&label="92.8/74"]:0.006878)[&label="96.7/99"]:0.015636,('sp0364_DQ404387.1_Anthracophyllum_archeri':0.030449,(b0013_Marasmiellus_lucidus:0.003324,b0014_Marasmiellus_venosus:2.0E-6)[&label="95.3/99"]:0.014258)[&label="86.3/63"]:0.007568)[&label="0/17"]:2.0E-6,((('sp0021_AY317136.1_Moniliophthora_perniciosa':0.090652,'sp0086_AY445121.1_Campanella_subdendrophora':0.058249)[&label="84.2/82"]:0.016099,('sp0005_DQ182506.1_Marasmius_rotula':0.121701,'sp0001_DQ490641.1_Marasmius_oreades':0.043877)[&label="0/66"]:2.0E-6)[&label="85.3/96"]:0.00727,'sp0125_AY916692.1_Crinipellis_zonata':0.029931)[&label="98.4/100"]:0.021301)[&label="92.4/83"]:0.009416,('b0011_JF344713.1_Neonothopanus_gardneri':0.032148,('b0002_KP013056.1_Neonothopanus_nambi':0.011514,'sp0301_MW298685.1_Neonothopanus_hygrophanus':0.009553)[&label="82.4/96"]:0.00363)[&label="83.6/80"]:0.003704)[&label="99/100"]:0.012408,('sp0304_KC333363.1_Omphalotus_flagelliformis':0.006172,'b0008_MF403068.1_Omphalotus_olivascens':0.007291)[&label="79.1/59"]:0.00405)[&label="45.3/27"]:0.001171,(('sp0305_AY313283.1_Omphalotus_subilludens':0.006591,'b0007_MZ088070.1_Omphalotus_olearius':0.003757)[&label="0/83"]:2.0E-6,('sp0311_MK965882.1_Omphalotus_guepiniformis':0.003651,'KJ395102.1_Omphalotus_japonicus':2.0E-6)[&label="94.4/100"]:0.005093)[&label="95/98"]:0.005693)[&label="0/30"]:2.0E-6,'sp0309_AY313274.1_Omphalotus_mexicanus':0.001618)[&label="82.4/35"]:0.001102,'b0004_MN737454.1_Omphalotus_illudens':2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
